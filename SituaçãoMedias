@@ -1,0 +1,30 @@
+/*
+float media;
+
+Console.WriteLine("Qual a media?");
+media = float.Parse(Console.ReadLine());
+
+if (media < 5)
+    {
+    Console.WriteLine("REPROVADO!");
+    }
+
+else if (media >= 5 && media <= 7 )
+    {
+    Console.WriteLine("RECUPERAÇÃO!");
+    }
+
+else
+    {
+    Console.WriteLine("APROVADO!");
+    }
+*/
+/*
+float media;
+
+Console.WriteLine("Qual a media?");
+media = float.Parse(Console.ReadLine());
+
+var result = (media < 5 ? "REPROVADO!" : media >= 5 && media <= 7 ? "RECUPERAÇÃO!": "APROVADO!") ;
+Console.WriteLine(result);
+*/
